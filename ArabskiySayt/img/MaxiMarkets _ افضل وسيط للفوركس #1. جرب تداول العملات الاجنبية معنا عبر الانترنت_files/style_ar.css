@@ -1,0 +1,38 @@
+
+/* bullets to right side ar */
+.mm-page-content ul li, .mm-page-content ol li {
+    position: relative;
+    font-size: 20px;
+    color: #454444;
+    line-height: normal;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.mm-page-content ul li::before, .mm-page-content ol li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #e88b0c;
+}
+/* bullets to right side ar */
+
+/* begin styles for /webmaster-tools */
+
+#TechnicalChart div.padding15.width-200.divImage.accordionBtn {
+    width: 56%;
+}
+#NearestEconomicEvents div.padding15.width-200.divImage.accordionBtn {
+    width: 61%;
+}
+#TickerTape div.padding15.width-200.divImage.accordionBtn {
+    width: 53%;
+}
+#SessionsWidget div.padding15.width-200.divImage.accordionBtn {
+    width: 70%;
+}
+/* end styles for /webmaster-tools */
